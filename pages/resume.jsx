@@ -55,7 +55,7 @@ function Resume() {
                     <div>
                       {i.items.map((itm) => {
                         return (
-                          <div className={`${itm.color} p-6 gap-6  lg:rounded-2xl  rounded-2xl my-4`}>
+                          <div key={itm.title} className={`${itm.color} p-6 gap-6  lg:rounded-2xl  rounded-2xl my-4`}>
                             <div className='py-2 text-gray-500'>{itm.date}</div>
                             <div className='space-y-2'>
                               <div className='text-2xl '>{itm.title}</div>

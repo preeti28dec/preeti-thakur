@@ -33,7 +33,7 @@ function Contact() {
             </div>
             <div className='w-full mt-8 lg:mt-0 lg:w-[60%] xl:w-[70%] bg-sky-50 rounded-2xl'>
               <div className='p-[48px] rounded-xl  '>
-                <div className='text-2xl text-gray-500'>I'm always open to discussing product</div>
+                <div className='text-2xl text-gray-500'>I am always open to discussing product</div>
                 <div className='font-semibold text-xl'> design work or partnerships.</div>
               </div>
               <div id="myForm" className='mx-12'>
