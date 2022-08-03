@@ -1,7 +1,6 @@
 
 
 import React from 'react'
-import Header from './header'
 const DATA = [
   { img: './contact/contact_img1.png', titel: "Phone:", disc: "+452 666 386", disc2: " +452 666 386", color: "bg-purple-50" },
   { img: './contact/contact_img2.png', titel: "Email:", disc: "support@gmail.com", disc2: "example@gmail.com", color: "bg-amber-50" },
@@ -10,10 +9,13 @@ const DATA = [
 function Contact() {
   return (
     <>
-      <Header />
       <div className='mx-auto  container bg-white lg:rounded-2xl px-4 sm:px-5 md:px10 lg:px-10 mb-10'>
-        <div className='py-12'>
-          <div className='py-12'>ABOUT ME ---------------------------</div>
+        <div className='py-8'>
+        <div className='py-12 flex items-center gap-6'>
+            <span className='text-4xl font-bold font-Roboto '>Contact</span>
+              <div className='w-[20%] bg-gradient-to-r from-[#FA5252] to-[#DD2476]  rounded-[10px] h-0.5'>
+              </div>
+          </div>
           <div className='lg:flex  gap-12 mx-auto'>
             <div className=''>
               {DATA.map((items) => {
@@ -34,7 +36,7 @@ function Contact() {
             <div className='w-full mt-8 lg:mt-0 lg:w-[60%] xl:w-[70%] bg-sky-50 rounded-2xl'>
               <div className='p-[48px] rounded-xl  '>
                 <div className='text-2xl text-gray-500'>I am always open to discussing product</div>
-                <div className='font-semibold text-xl'> design work or partnerships.</div>
+                <div className='font-semibold text-2xl mt-2'> design work or partnerships.</div>
               </div>
               <div id="myForm" className='mx-12'>
                 <div className="relative  z-0 w-full mt-[40px] mb-8 group">

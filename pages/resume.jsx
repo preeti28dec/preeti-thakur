@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './header'
 import { FaAward, FaGraduationCap } from 'react-icons/fa'
 import { MdWork } from 'react-icons/md'
 
@@ -39,10 +38,13 @@ const DATA = [
 function Resume() {
   return (
     <>
-      <Header />
       <div className='mx-auto  container bg-white lg:rounded-2xl px-4 sm:px-5 md:px10 lg:px-10 mb-10'>
-        <div className='py-12'>
-          <div className='py-12'>ABOUT ME ---------------------------</div>
+        <div className='py-8'>
+        <div className='py-12 flex items-center gap-6'>
+            <span className='text-4xl font-bold font-Roboto '>Resume</span>
+              <div className='w-[20%] bg-gradient-to-r from-[#FA5252] to-[#DD2476]  rounded-[10px] h-0.5'>
+              </div>
+          </div>
           <div className='grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 '>
             {DATA.map((i) => {
               return (

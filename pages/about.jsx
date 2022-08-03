@@ -3,7 +3,6 @@ import { MdPhoneIphone } from 'react-icons/md'
 import { IoLocationSharp } from 'react-icons/io5'
 import { HiOutlineMailOpen } from 'react-icons/hi'
 import { FaRegCalendarAlt } from 'react-icons/fa'
-import Header from './header'
 
 const DATA = [
   { icon: './svg/about_icon1.svg', titel: "Ui/Ux Design", disc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.", color: "bg-purple-50" },
@@ -18,10 +17,13 @@ const DATA = [
 function About() {
   return (
     <>
-      <Header />
       <div className='mx-auto  container bg-white lg:rounded-2xl px-4 sm:px-5 md:px10 lg:px-10 mb-10'>
-        <div className='py-12'>
-          <div className='py-12'>ABOUT ME ---------------------------</div>
+        <div className='py-8'>
+          <div className='py-12 flex items-center gap-6'>
+            <span className='text-4xl font-bold font-Roboto '>About Me</span>
+              <div className='w-[20%] bg-gradient-to-r from-[#FA5252] to-[#DD2476]  rounded-[10px] h-0.5'>
+              </div>
+          </div>
           <div className='lg:flex gap-14 '>
             <img className='w-[650px]  object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0' src="./about_image.jpg" alt="loding..." />
             <div className='md:mr-12 xl:mr-16'>
@@ -75,11 +77,11 @@ function About() {
           {DATA.map((items) => {
             return (
               <div key={items.titel} className={`${items.color} p-6 gap-6 flex lg:rounded-2xl  rounded-2xl`}>
-                  <img className={`${items.color} mb-24`} src={items.icon} alt={items.titel} />
-                  <div className='space-y-2'>
-                    <div className='text-2xl font-semibold'>{items.titel}</div>
-                    <div className='leading-8 text-gray-500'>{items.disc}</div>
-                  </div>
+                <img className={`${items.color} mb-24`} src={items.icon} alt={items.titel} />
+                <div className='space-y-2'>
+                  <div className='text-2xl font-semibold'>{items.titel}</div>
+                  <div className='leading-8 text-gray-500'>{items.disc}</div>
+                </div>
               </div>
             )
           })}
