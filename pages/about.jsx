@@ -21,8 +21,7 @@ function About() {
         <div className='py-8'>
           <div className='py-12 flex items-center gap-6'>
             <span className='text-4xl font-bold font-Roboto '>About Me</span>
-              <div className='w-[20%] bg-gradient-to-r from-[#FA5252] to-[#DD2476]  rounded-[10px] h-0.5'>
-              </div>
+              <div className='w-[20%] bg-gradient-to-r from-[#FA5252] to-[#DD2476]  rounded-[10px] h-0.5'></div>
           </div>
           <div className='lg:flex gap-14 '>
             <img className='w-[650px]  object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0' src="./about_image.jpg" alt="loding..." />

@@ -5,13 +5,24 @@ import { FaRegUser, FaRegListAlt, FaBloggerB } from 'react-icons/fa';
 import { AiOutlineHome } from 'react-icons/ai'
 import { FiBriefcase } from 'react-icons/fi'
 import { RiContactsBookLine } from 'react-icons/ri'
-
-
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 
+// import { LightTheme, DarkTheme } from "./theme";
+// import { ThemeProvider } from "styled-components";
+// import { GlobalStyles } from "./global";
+
 export default function Header() {
+
+
+//     const [theme, setTheme] = useState('light');
+//     const themeToggler = () => {
+//       theme === 'light' ? setTheme('dark') : setTheme('light')
+//   } 
+
+
+
     const router = useRouter();
     const [isMenu, setIsMenu] = useState(false);
     const menuItems = [
@@ -48,6 +59,8 @@ export default function Header() {
     ];
     console.log(isMenu)
     return (
+        // <ThemeProvider theme={theme === 'light' ? LightTheme : DarkTheme}>
+        //   <GlobalStyles/>
         <>
             <div className='header '>
                 <div className=' flex lg:justify-between justify-between   xl:justify-center md:justify-between items-center xl:gap-32  lg:my-12 w-full'>
@@ -57,7 +70,13 @@ export default function Header() {
                     <div className='flex xl:ml-28'>
                         <Button />
                         <div className='flex  '>
-                            <div className='mx-2 lg:mx-6 md:mx-4 xl:text-[24px] bg-white px-4 py-4 rounded-full'> <FaRegMoon /></div>
+                            <div className='mx-2 lg:mx-6 md:mx-4 xl:text-[24px] bg-white px-4 py-4 rounded-full' 
+                            // onClick={themeToggler}
+                            > 
+                            
+                            <FaRegMoon />
+                            
+                            </div>
                             <div className='mx-3 bg-gradient-to-r from-[#FA5252] to-[#DD2476] xl:text-[24px] bg-white px-4 py-3  rounded-full lg:hidden block'>
                                 <button onClick={() => { isMenu ? setIsMenu(false) : setIsMenu(true) }}><FiMenu /></button>
                             </div>
@@ -82,7 +101,10 @@ export default function Header() {
                 </div>
             </div>
         </>
+        // </ThemeProvider>
     )
 }
+
+
 
 
