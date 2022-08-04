@@ -1,6 +1,6 @@
 import { FaRegMoon } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi'
-import Button from './components/button';
+import Button from '../components/button';
 import { FaRegUser, FaRegListAlt, FaBloggerB } from 'react-icons/fa';
 import { AiOutlineHome } from 'react-icons/ai'
 import { FiBriefcase } from 'react-icons/fi'
