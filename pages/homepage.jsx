@@ -8,15 +8,15 @@ function Homepage() {
   return (
     <div className='main_div'>
     <Head>
-      <title>Bostami Webside</title>
+      <title>Resume Webside</title>
       <link rel="icon" href="/favicon-icon.ico" />
     </Head>
     <div className='flex flex-col items-center  mt-36'>
       <div >
         <img className=' rounded-full w-[250px] lg:w-[350px] ' src='./profile-image.jpg' alt='error on profile image' />
       </div>
-      <div className='mt-6 mb-1 text-3xl lg:text-5xl font-semibold font-Poppins'>Preeti Thakur</div>
-      <div className='my-2 text-[#7B7B7B]'>UI/UX Designer</div>
+      <div className='mt-6 mb-1 text-3xl lg:text-5xl font-semibold font-Poppins'>Preeti</div>
+      <div className='my-2 text-[#7B7B7B]'>Front-end Developer</div>
       <div className='flex gap-4'>
         <div className='text-4xl'><FaFacebookF className='px-3 bg-white hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef]  hover:text-white  text-blue-600 rounded-xl' /></div>
         <div className='text-4xl'><FaTwitter className='px-2 bg-white  text-sky-500 rounded-xl hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef]  hover:text-white ' /></div>

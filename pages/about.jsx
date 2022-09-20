@@ -27,17 +27,17 @@ function About() {
             <img className='w-[650px]  object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0' src="./about_image.jpg" alt="loding..." />
             <div className='md:mr-12 xl:mr-16'>
               <div className='text-4xl font-medium mb-2.5'>Who am i? </div>
-              <p className='text-gray-500 leading-7'>I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
-              <p className='text-gray-500 leading-7 mt-2.5'>My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+              <p className='text-gray-500 leading-7'>I belong to Delhi and I graduated from Delhi University.             Interested in project implementation and process innovation.  Always willing to learn and execute new things.</p>
+              {/* <p className='text-gray-500 leading-7 mt-2.5'>My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p> */}
               <div className=''>
                 <div className='text-4xl font-medium my-5 '>Personal info</div>
                 <div className=' '>
-                  <div className='lg:flex  lg:gap-32 '>
+                  <div className='lg:flex  lg:gap-[15rem] '>
                     <div className='flex gap-4 '>
                       <div className=''><MdPhoneIphone className='shadow-xl  flex items-center justify-center rounded-md py-2 px-3 text-5xl w-12 text-pink-500 ' /></div>
                       <div>
                         <div className='text-[14px]'>Phone</div>
-                        <div className='font-medium'>+123 456 7890</div>
+                        <div className='font-medium'>8130554490</div>
                       </div>
                     </div>
                     <div className='flex gap-4 my-2 '>
@@ -45,7 +45,7 @@ function About() {
 
                       <div>
                         <div className='text-[14px]'>Location</div>
-                        <div className='font-medium'>Hong kong china</div>
+                        <div className='font-medium'>New Delhi 1100065</div>
                       </div>
                     </div>
 
@@ -55,14 +55,14 @@ function About() {
                       <div><HiOutlineMailOpen className='shadow-xl  flex items-center justify-center rounded-md py-2 px-3 text-5xl w-12 text-teal-500 ' /></div>
                       <div>
                         <div className='text-[14px]'>Email</div>
-                        <div className='font-medium'>example@mail.com</div>
+                        <div className='font-medium'>preetithakur20@navgurukul.org</div>
                       </div>
                     </div>
                     <div className='flex gap-4 my-2'>
                       <div><FaRegCalendarAlt className='shadow-xl  flex items-center justify-center rounded-md py-2 px-3 text-5xl w-12 text-purple-400 ' /></div>
                       <div>
                         <div className='text-[14px]'>Birthday</div>
-                        <div className='font-medium'>May 27, 1990</div>
+                        <div className='font-medium'>Dec 28, 2000</div>
                       </div>
                     </div>
                   </div>
