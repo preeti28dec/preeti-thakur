@@ -1,9 +1,9 @@
 import Header from "../pages/header";
-export default function Layout({ childern }) {
+export default function Layout({ children }) {
   return (
     <>
       <Header/>
-      <main>{childern}</main>
+      <main>{children}</main>
     </>
   )
   }
