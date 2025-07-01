@@ -37,7 +37,7 @@ function About() {
                       <div className=''><MdPhoneIphone className='shadow-xl  flex items-center justify-center rounded-md py-2 px-3 text-5xl w-12 text-pink-500 ' /></div>
                       <div>
                         <div className='text-[14px]'>Phone</div>
-                        <div className='font-medium'>8130554490</div>
+                        <div className='font-medium text-[15px]'>8130554490</div>
                       </div>
                     </div>
                     <div className='flex gap-4 my-2 '>
@@ -45,7 +45,7 @@ function About() {
 
                       <div>
                         <div className='text-[14px]'>Location</div>
-                        <div className='font-medium'>New Delhi 1100065</div>
+                        <div className='font-medium text-[15px]'>New Delhi 1100065</div>
                       </div>
                     </div>
 
@@ -55,14 +55,14 @@ function About() {
                       <div><HiOutlineMailOpen className='shadow-xl  flex items-center justify-center rounded-md py-2 px-3 text-5xl w-12 text-teal-500 ' /></div>
                       <div>
                         <div className='text-[14px]'>Email</div>
-                        <div className='font-medium'>preetithakur20@navgurukul.org</div>
+                        <div className='font-medium text-[15px]'>preetithakur20@navgurukul.org</div>
                       </div>
                     </div>
                     <div className='flex gap-4 my-2'>
                       <div><FaRegCalendarAlt className='shadow-xl  flex items-center justify-center rounded-md py-2 px-3 text-5xl w-12 text-purple-400 ' /></div>
                       <div>
                         <div className='text-[14px]'>Birthday</div>
-                        <div className='font-medium'>Dec 28, 2000</div>
+                        <div className='font-medium text-[15px]'>Dec 28, 2000</div>
                       </div>
                     </div>
                   </div>
