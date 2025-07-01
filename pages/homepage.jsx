@@ -42,7 +42,7 @@ function Homepage() {
       </div>
 
       <a
-        href="/file/myfile.pdf"
+        href="/file/Preeti-thakur.pdf"
         target="_blank"
         download
         className="mt-6 inline-flex items-center gap-3 bg-gradient-to-r from-[#FA5252] to-[#DD2476] text-white px-6 py-3 rounded-full hover:scale-105 transition"
