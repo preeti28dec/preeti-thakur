@@ -1,5 +1,5 @@
 
-
+import Image from 'next/image';
 import React from 'react'
 const DATA = [
   { img: './contact/contact_img1.png', titel: "Phone:", disc: "+452 666 386", disc2: " +452 666 386", color: "bg-purple-50" },
@@ -22,7 +22,7 @@ function Contact() {
                 return (
                   <div key={items.titel} className={`${items.color} p-6 gap-6 mb-6  lg:rounded-2xl  rounded-2xl`}>
                     <div className='flex gap-6'>
-                      <img className={`${items.color} mb-6 rounded-2xl w-10 h-10 `} src={items.img} alt={items.titel} />
+                      <Image className={`${items.color} mb-6 rounded-2xl w-10 h-10 `} src={items.img} alt={items.titel} />
                       <div>
                         <div className='text-2xl font-semibold'>{items.titel}</div>
                         <div className='leading-8 text-gray-500'>{items.disc}</div>
