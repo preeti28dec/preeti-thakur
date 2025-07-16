@@ -37,7 +37,7 @@ function About() {
                       <div className=''><MdPhoneIphone className='shadow-xl  flex items-center justify-center rounded-md py-2 px-3 text-5xl w-12 text-pink-500 ' /></div>
                       <div>
                         <div className='text-[14px]'>Phone</div>
-                        <div className='font-medium text-[15px]'>8130554490</div>
+                        <div className='font-medium text-[15px]'>813055xxxx</div>
                       </div>
                     </div>
                     <div className='flex gap-4 my-2 '>

@@ -2,10 +2,11 @@
 import Image from 'next/image';
 import React from 'react'
 const DATA = [
-  { img: './contact/contact_img1.png', titel: "Phone:", disc: "+452 666 386", disc2: " +452 666 386", color: "bg-purple-50" },
-  { img: './contact/contact_img2.png', titel: "Email:", disc: "support@gmail.com", disc2: "example@gmail.com", color: "bg-amber-50" },
-  { img: './contact/contact_img3.png', titel: "Address:", disc: "Maount View, Oval", disc2: "Road, New York, USA", color: "bg-violet-50" }
-]
+  { img: '/contact/contact_img1.png', titel: "Phone:", disc: "+452 666 386", disc2: " +452 666 386", color: "bg-purple-50" },
+  { img: '/contact/contact_img2.png', titel: "Email:", disc: "support@gmail.com", disc2: "example@gmail.com", color: "bg-amber-50" },
+  { img: '/contact/contact_img3.png', titel: "Address:", disc: "Maount View, Oval", disc2: "Road, New York, USA", color: "bg-violet-50" }
+];
+
 function Contact() {
   return (
     <>
@@ -22,7 +23,7 @@ function Contact() {
                 return (
                   <div key={items.titel} className={`${items.color} p-6 gap-6 mb-6  lg:rounded-2xl  rounded-2xl`}>
                     <div className='flex gap-6'>
-                      <Image className={`${items.color} mb-6 rounded-2xl w-10 h-10 `} src={items.img} alt={items.titel} />
+                      <Image className={`${items.color} mb-6  `} src={items.img} alt={items.titel} height={30} width={60} />
                       <div>
                         <div className='text-2xl font-semibold'>{items.titel}</div>
                         <div className='leading-8 text-gray-500'>{items.disc}</div>
